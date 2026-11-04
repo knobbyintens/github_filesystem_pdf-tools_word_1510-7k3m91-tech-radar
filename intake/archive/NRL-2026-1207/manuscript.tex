@@ -1,0 +1,15 @@
+\documentclass{article}
+\title{Selective Depth Gating for Compute-Efficient Transformers}
+\author{A. Okafor and L. Mendes and R. Castellanos}
+\begin{document}
+\maketitle
+\begin{abstract}
+We introduce a per-token depth gate that decides at each layer boundary whether
+a token should pass through the current block or be routed forward. The gate is
+trained jointly with the backbone and reduces average compute per token.
+\end{abstract}
+\section{Method}
+A lightweight controller scores each token representation and emits a skip decision.
+\section{Experiments}
+We evaluate on standard language modelling benchmarks.
+\end{document}
