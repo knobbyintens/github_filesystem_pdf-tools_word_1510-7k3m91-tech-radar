@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-06-30",
+  "entries": [
+    {
+      "intake_id": "INTAKE-2025-0173",
+      "paper_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "paper_identifier": "arXiv:2312.00752",
+      "decision": "adopt",
+      "tier": "tier-1",
+      "implementation_repo": "state-spaces/mamba",
+      "reviewed_at": "2025-06-30"
+    },
+    {
+      "intake_id": "INTAKE-2025-0221",
+      "paper_title": "Tool-Augmented Retrieval for Enterprise Question Answering",
+      "paper_identifier": "NRL-2025-0441",
+      "decision": "hold",
+      "tier": null,
+      "implementation_repo": null,
+      "reviewed_at": "2025-09-12"
+    }
+  ]
+}
